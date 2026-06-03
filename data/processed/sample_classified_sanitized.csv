@@ -1,0 +1,5 @@
+asDate,Description,Amount,InOut,Currency,ID_PlanoDeConta,Classification,Company_Name,Description2,confidence_score,classified_by,source_file,classified_at
+2026-05-01,100 Connects fee,-15.0,Out,USD,3.6.9,Fees,Demo Platform,Connects Purchase,0.91,AI,sample_transactions_sanitized.csv,2026-06-03T10:00:00
+2026-05-01,Card payment reference 55510001,15.0,In,USD,1.1.1,Transfer,Demo Card Processor,Credit Card Payment,0.82,AI,sample_transactions_sanitized.csv,2026-06-03T10:00:00
+2026-05-03,Payout reference 77003311,450.0,In,USD,1.1.1,Revenue,Demo Marketplace,Client Payout,0.88,AI,sample_transactions_sanitized.csv,2026-06-03T10:00:00
+2026-05-04,Service fee deduction,-9.5,Out,USD,3.6.9,Fees,Demo Platform,Platform Fee,0.79,Needs Review,sample_transactions_sanitized.csv,2026-06-03T10:00:00

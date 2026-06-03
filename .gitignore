@@ -1,0 +1,44 @@
+# Secrets and local env files
+.env
+.env.local
+.env.*.local
+
+# Raw and generated datasets
+# Keep only explicit sanitized samples in these folders
+data/raw/*
+!data/raw/.gitkeep
+!data/raw/sample_transactions_sanitized.csv
+
+data/processed/*
+!data/processed/.gitkeep
+!data/processed/sample_classified_sanitized.csv
+
+# Trained model artifacts
+models/*
+!models/.gitkeep
+
+# Python cache and build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+.eggs/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE and OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db

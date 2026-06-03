@@ -1,0 +1,5 @@
+Date,Transaction ID,Transaction type,Transaction summary,Transaction summary details,Description 1,Agency team,Freelancer,Client team,Account name,PO,Ref ID,Amount $,Currency,Payment method
+"May 01, 2026",100000001,Connects,100 Connects,,100 Connects fee,,,,Demo Studio LLC,,100000001,-15,USD,
+"May 01, 2026",100000002,Payment,100 Connects,,Card payment reference 55510001,,,,Demo Studio LLC,,55510001,15,USD,Card ending 0001
+"May 03, 2026",100000003,Payment,Client payout,,Payout reference 77003311,,,,Demo Studio LLC,,77003311,450,USD,Bank transfer
+"May 04, 2026",100000004,Service Fee,Platform fee,,Service fee deduction,,,,Demo Studio LLC,,100000004,-9.5,USD,
