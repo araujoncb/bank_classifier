@@ -90,34 +90,6 @@ Rows below your confidence threshold are flagged for manual review.
 - `confidence_score` is generated per row.
 - rows below threshold are tagged as `Needs Review`.
 
-## GitHub Publishing Checklist
-
-Use this checklist before making the repository public:
-
-1. Rotate Azure credentials if they were ever stored in local tracked files.
-2. Confirm `.env` is ignored and not staged.
-3. Confirm only synthetic sample data exists under `data/raw` and `data/processed`.
-4. Confirm `models/` contains no trained artifacts unless intentionally sharing synthetic/demo models.
-5. Run a secret scan over tracked files.
-
-## Suggested GitHub Setup
-
-After local commit:
-
-```bash
-git init
-git add .
-git commit -m "Prepare bank-classifier for public portfolio"
-git branch -M main
-git remote add origin https://github.com/<your-user>/<your-repo>.git
-git push -u origin main
-```
-
-Then set repository metadata on GitHub:
-
-- Description: "Bank transaction classifier with Dataverse integration"
-- Topics: `python`, `scikit-learn`, `dataverse`, `ml`, `classification`
-
 ## Limitations
 
 - Model quality depends on historical label quality and class balance.
@@ -126,4 +98,4 @@ Then set repository metadata on GitHub:
 
 ## License
 
-Add a license file before publishing (MIT is a common portfolio choice).
+This project is licensed under the MIT License. See the `LICENSE` file for details.
