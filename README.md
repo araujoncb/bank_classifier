@@ -11,15 +11,6 @@ The project trains scikit-learn models using historical records and then classif
 - Confidence-based review flow (`Needs Review` for low-confidence predictions)
 - Reproducible synthetic sample data included for safe demos
 
-## Security and Privacy
-
-This repository is prepared for public portfolio use.
-
-- Never commit `.env` with real credentials.
-- Keep all real financial statements out of version control.
-- Use only synthetic demo CSV files in `data/raw` and `data/processed`.
-- Treat any previously exposed credentials as compromised and rotate them.
-
 ## Project Structure
 
 - `src/config.py`: environment configuration
